@@ -45,4 +45,5 @@ cd ai-telemetry-dashboard
 docker compose up --build
 3. Access the dashboard:
 Open your browser and navigate to http://localhost:8501
+
 Built as a professional-grade solution for Edge AI governance.
