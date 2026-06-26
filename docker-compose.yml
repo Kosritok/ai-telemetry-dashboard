@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  telemetry-dashboard:
+    build: .
+    container_name: ai_telemetry_console
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
